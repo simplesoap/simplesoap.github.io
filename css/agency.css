@@ -158,6 +158,7 @@ fieldset[disabled] .btn-xl.active {
   color: #77dd77;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -251,6 +252,7 @@ header .intro-text .intro-lead-in {
   font-size: 5px;
   line-height: 22px;
   margin-bottom: 25px;
+
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -259,6 +261,12 @@ header .intro-text .intro-heading {
   font-size: 20px;
   line-height: 50px;
   margin-bottom: 5px;
+    border: 4px solid white;
+    border-spacing: 50px 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
