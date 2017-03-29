@@ -113,6 +113,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+    margin: 10px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -146,8 +147,14 @@ fieldset[disabled] .btn-xl.active {
   background-color: #77dd77;
   border-color: #77dd77;
 }
+
+
+.page-scroll btn btn-xl {
+  margin: 10px;
+}
 .btn-xl .badge {
   color: #77dd77;
+  margin: 10px;
   background-color: white;
 }
 .navbar-custom {
