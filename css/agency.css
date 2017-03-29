@@ -160,6 +160,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
+  position: fixed;
+
 }
 .navbar-custom .navbar-brand {
   color: #77dd77;
@@ -256,9 +258,9 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   /*font-style: italic;*/
-  font-size: 5px;
+  font-size: 15px;
   line-height: 22px;
   margin-bottom: 25px;
 
@@ -271,9 +273,9 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 5px;
     border: 4px solid white;
-    border-spacing: 50px 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    border-spacing: 10px 50px 10px 50px; 
+    padding-left: -1px;
+    padding-right: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -767,3 +769,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #77dd77;
 }
+
